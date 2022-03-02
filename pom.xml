@@ -4,9 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
+    <groupId>com.vum</groupId>
     <artifactId>VumDemoPackage</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
@@ -17,26 +18,10 @@
     <distributionManagement>
         <repository>
             <id>github</id>
-            <name>VUM Team package management</name>
+            <name>Vum Team Demo Package</name>
             <url>https://maven.pkg.github.com/prasannahexad/vumdemopackage</url>
         </repository>
     </distributionManagement>
-    <developers>
-        <developer>
-            <name>Prasanna Ballal</name>
-            <email>prasanna.ballal@hexad.de</email>
-            <organization>com.github.prasannahexad</organization>
-            <organizationUrl>https://github.com/prasannahexad/vumdemopackage</organizationUrl>
-        </developer>
-    </developers>
-
-    <scm>
-        <connection>scm:git:git://github.com/prasannahexad/vumdemopackage.git</connection>
-        <developerConnection>scm:git:https://github.com/prasannahexad/vumdemopackage.git
-        </developerConnection>
-        <url>https://github.com/prasannahexad/vumdemopackage</url>
-        <tag>vum-demo-package</tag>
-    </scm>
 
 
 
